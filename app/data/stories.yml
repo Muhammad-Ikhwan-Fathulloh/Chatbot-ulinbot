@@ -1,0 +1,533 @@
+version: "3.1"
+
+stories:
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet_name
+  - intent: nama_user
+    entities:
+    - nama: fanny
+  - slot_was_set:
+    - nama: fanny
+  - action: action_nama_user
+  - action: utter_greet
+  - action: utter_kalimat_awal
+  - intent: goodbye
+  - action: utter_goodbye
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet_name
+  - intent: nama_user
+    entities:
+    - nama: rusydi
+  - slot_was_set:
+    - nama: rusydi
+  - action: action_nama_user
+  - action: utter_greet
+  - action: utter_kalimat_awal
+  - intent: main_menu
+  - action: utter_welcome
+  - intent: choose_kuliner
+  - action: utter_kuliner
+  - intent: choose_st
+  - action: utter_st
+  - intent: choose_st_1
+  - action: utter_st_1
+  - action: utter_st_1_btn
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet_name
+  - intent: nama_user
+    entities:
+    - nama: fanny
+  - slot_was_set:
+    - nama: fanny
+  - action: action_nama_user
+  - action: utter_greet
+  - action: utter_kalimat_awal
+  - intent: main_menu
+  - action: utter_welcome
+  - intent: choose_kuliner
+  - action: utter_kuliner
+  - intent: choose_st
+  - action: utter_st
+  - intent: choose_st_2
+  - action: utter_st_2
+  - action: utter_st_2_btn
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet_name
+  - intent: nama_user
+    entities:
+    - nama: fanny
+  - slot_was_set:
+    - nama: fanny
+  - action: action_nama_user
+  - action: utter_greet
+  - action: utter_kalimat_awal
+  - intent: main_menu
+  - action: utter_welcome
+  - intent: choose_kuliner
+  - action: utter_kuliner
+  - intent: choose_st
+  - action: utter_st
+  - intent: choose_st_3
+  - action: utter_st_3
+  - action: utter_st_3_btn
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet_name
+  - intent: nama_user
+    entities:
+    - nama: fanny
+  - slot_was_set:
+    - nama: fanny
+  - action: action_nama_user
+  - action: utter_greet
+  - action: utter_kalimat_awal
+  - intent: main_menu
+  - action: utter_welcome
+  - intent: choose_kuliner
+  - action: utter_kuliner
+  - intent: choose_khas
+  - action: utter_khas
+  - intent: choose_khas_1
+  - action: utter_khas_1
+  - action: utter_khas_1_btn
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet_name
+  - intent: nama_user
+    entities:
+    - nama: fanny
+  - slot_was_set:
+    - nama: fanny
+  - action: action_nama_user
+  - action: utter_greet
+  - action: utter_kalimat_awal
+  - intent: main_menu
+  - action: utter_welcome
+  - intent: choose_kuliner
+  - action: utter_kuliner
+  - intent: choose_khas
+  - action: utter_khas
+  - intent: choose_khas_2
+  - action: utter_khas_2
+  - action: utter_khas_2_btn
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet_name
+  - intent: nama_user
+    entities:
+    - nama: fanny
+  - slot_was_set:
+    - nama: fanny
+  - action: action_nama_user
+  - action: utter_greet
+  - action: utter_kalimat_awal
+  - intent: main_menu
+  - action: utter_welcome
+  - intent: choose_kuliner
+  - action: utter_kuliner
+  - intent: choose_khas
+  - action: utter_khas
+  - intent: choose_khas_3
+  - action: utter_khas_3
+  - action: utter_khas_3_btn
+
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet_name
+  - intent: nama_user
+    entities:
+    - nama: fanny
+  - slot_was_set:
+    - nama: fanny
+  - action: action_nama_user
+  - action: utter_greet
+  - action: utter_kalimat_awal
+  - intent: main_menu
+  - action: utter_welcome
+  - intent: choose_kuliner
+  - action: utter_kuliner
+  - intent: choose_oleh
+  - action: utter_oleh
+  - intent: choose_oleh_1
+  - action: utter_oleh_1
+  - action: utter_oleh_1_btn
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet_name
+  - intent: nama_user
+    entities:
+    - nama: fanny
+  - slot_was_set:
+    - nama: fanny
+  - action: action_nama_user
+  - action: utter_greet
+  - action: utter_kalimat_awal
+  - intent: main_menu
+  - action: utter_welcome
+  - intent: choose_kuliner
+  - action: utter_kuliner
+  - intent: choose_oleh
+  - action: utter_oleh
+  - intent: choose_oleh_2
+  - action: utter_oleh_2
+  - action: utter_oleh_2_btn
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet_name
+  - intent: nama_user
+    entities:
+    - nama: fanny
+  - slot_was_set:
+    - nama: fanny
+  - action: action_nama_user
+  - action: utter_greet
+  - action: utter_kalimat_awal
+  - intent: main_menu
+  - action: utter_welcome
+  - intent: choose_kuliner
+  - action: utter_kuliner
+  - intent: choose_oleh
+  - action: utter_oleh
+  - intent: choose_oleh_3
+  - action: utter_oleh_3
+  - action: utter_oleh_3_btn
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet_name
+  - intent: nama_user
+    entities:
+    - nama: fanny
+  - slot_was_set:
+    - nama: fanny
+  - action: action_nama_user
+  - action: utter_greet
+  - action: utter_kalimat_awal
+  - intent: main_menu
+  - action: utter_welcome
+  - intent: choose_alasan
+  - action: utter_alasan_satu
+  - action: utter_alasan_1_btn
+  - intent: choose_alasan_2
+  - action: utter_alasan_dua
+  - action: utter_alasan_2_btn
+  - intent: choose_alasan_3
+  - action: utter_alasan_tiga
+  - action: utter_alasan_3_btn
+  - intent: choose_alasan_4
+  - action: utter_alasan_empat
+  - action: utter_back_to_menu
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet_name
+  - intent: nama_user
+    entities:
+    - nama: fanny
+  - slot_was_set:
+    - nama: fanny
+  - action: action_nama_user
+  - action: utter_greet
+  - action: utter_kalimat_awal
+  - intent: main_menu
+  - action: utter_welcome
+  - intent: choose_cuaca
+  - action: utter_tanya_loc
+  - intent: cuaca
+    entities:
+    - loc: dago
+  - slot_was_set:
+    - loc: dago
+  - action: action_cuaca
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet_name
+  - intent: nama_user
+    entities:
+    - nama: rusydi
+  - slot_was_set:
+    - nama: rusydi
+  - action: action_nama_user
+  - action: utter_greet
+  - action: utter_kalimat_awal
+  - intent: main_menu
+  - action: utter_welcome
+  - intent: choose_wisata
+  - action: utter_wisata
+  - intent: choose_wisatakeluarga
+  - action: utter_wisatakeluarga
+  - intent: choose_alun
+  - action: utter_alun
+  - action: utter_alun_btn
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet_name
+  - intent: nama_user
+    entities:
+    - nama: rusydi
+  - slot_was_set:
+    - nama: rusydi
+  - action: action_nama_user
+  - action: utter_greet
+  - action: utter_kalimat_awal
+  - intent: main_menu
+  - action: utter_welcome
+  - intent: choose_wisata
+  - action: utter_wisata
+  - intent: choose_wisatakeluarga
+  - action: utter_wisatakeluarga
+  - intent: choose_greatasiaafrika
+  - action: utter_greatasiaafrika
+  - action: utter_greatasiaafrika_btn
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet_name
+  - intent: nama_user
+    entities:
+    - nama: rusydi
+  - slot_was_set:
+    - nama: rusydi
+  - action: action_nama_user
+  - action: utter_greet
+  - action: utter_kalimat_awal
+  - intent: main_menu
+  - action: utter_welcome
+  - intent: choose_wisata
+  - action: utter_wisata
+  - intent: choose_wisatakeluarga
+  - action: utter_wisatakeluarga
+  - intent: choose_transstudio
+  - action: utter_transstudio
+  - action: utter_transstudio_btn
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet_name
+  - intent: nama_user
+    entities:
+    - nama: rusydi
+  - slot_was_set:
+    - nama: rusydi
+  - action: action_nama_user
+  - action: utter_greet
+  - action: utter_kalimat_awal
+  - intent: main_menu
+  - action: utter_welcome
+  - intent: choose_wisata
+  - action: utter_wisata
+  - intent: choose_wisatakeluarga
+  - action: utter_wisatakeluarga
+  - intent: choose_orchid
+  - action: utter_orchid
+  - action: utter_orchid_btn
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet_name
+  - intent: nama_user
+    entities:
+    - nama: rusydi
+  - slot_was_set:
+    - nama: rusydi
+  - action: action_nama_user
+  - action: utter_greet
+  - action: utter_kalimat_awal
+  - intent: main_menu
+  - action: utter_welcome
+  - intent: choose_wisata
+  - action: utter_wisata
+  - intent: choose_wisatasejarah
+  - action: utter_wisatasejarah
+  - intent: choose_monumenbla
+  - action: utter_monumenbla
+  - action: utter_monumenbla_btn
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet_name
+  - intent: nama_user
+    entities:
+    - nama: rusydi
+  - slot_was_set:
+    - nama: rusydi
+  - action: action_nama_user
+  - action: utter_greet
+  - action: utter_kalimat_awal
+  - intent: main_menu
+  - action: utter_welcome
+  - intent: choose_wisata
+  - action: utter_wisata
+  - intent: choose_wisatasejarah
+  - action: utter_wisatasejarah
+  - intent: choose_gedungmerdeka
+  - action: utter_gedungmerdeka
+  - action: utter_gedungmerdeka_btn
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet_name
+  - intent: nama_user
+    entities:
+    - nama: rusydi
+  - slot_was_set:
+    - nama: rusydi
+  - action: action_nama_user
+  - action: utter_greet
+  - action: utter_kalimat_awal
+  - intent: main_menu
+  - action: utter_welcome
+  - intent: choose_wisata
+  - action: utter_wisata
+  - intent: choose_wisatasejarah
+  - action: utter_wisatasejarah
+  - intent: choose_gedungsate
+  - action: utter_gedungsate
+  - action: utter_gedungsate_btn
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet_name
+  - intent: nama_user
+    entities:
+    - nama: rusydi
+  - slot_was_set:
+    - nama: rusydi
+  - action: action_nama_user
+  - action: utter_greet
+  - action: utter_kalimat_awal
+  - intent: main_menu
+  - action: utter_welcome
+  - intent: choose_wisata
+  - action: utter_wisata
+  - intent: choose_wisatasejarah
+  - action: utter_wisatasejarah
+  - intent: choose_museummandala
+  - action: utter_museummandala
+  - action: utter_museummandala_btn
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet_name
+  - intent: nama_user
+    entities:
+    - nama: rusydi
+  - slot_was_set:
+    - nama: rusydi
+  - action: action_nama_user
+  - action: utter_greet
+  - action: utter_kalimat_awal
+  - intent: main_menu
+  - action: utter_welcome
+  - intent: choose_wisata
+  - action: utter_wisata
+  - intent: choose_wisatahoneymoon
+  - action: utter_wisatahoneymoon
+  - intent: choose_glampinglegok
+  - action: utter_glampinglegok
+  - action: utter_glampinglegok_btn
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet_name
+  - intent: nama_user
+    entities:
+    - nama: rusydi
+  - slot_was_set:
+    - nama: rusydi
+  - action: action_nama_user
+  - action: utter_greet
+  - action: utter_kalimat_awal
+  - intent: main_menu
+  - action: utter_welcome
+  - intent: choose_wisata
+  - action: utter_wisata
+  - intent: choose_wisatahoneymoon
+  - action: utter_wisatahoneymoon
+  - intent: choose_padmahotel
+  - action: utter_padmahotel
+  - action: utter_padmahotel_btn
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet_name
+  - intent: nama_user
+    entities:
+    - nama: rusydi
+  - slot_was_set:
+    - nama: rusydi
+  - action: action_nama_user
+  - action: utter_greet
+  - action: utter_kalimat_awal
+  - intent: main_menu
+  - action: utter_welcome
+  - intent: choose_wisata
+  - action: utter_wisata
+  - intent: choose_wisatahoneymoon
+  - action: utter_wisatahoneymoon
+  - intent: choose_sandalwood
+  - action: utter_sandalwood
+  - action: utter_sandalwood_btn
+
+- story: interactive_story_1
+  steps:
+  - intent: greet
+  - action: utter_greet_name
+  - intent: nama_user
+    entities:
+    - nama: rusydi
+  - slot_was_set:
+    - nama: rusydi
+  - action: action_nama_user
+  - action: utter_greet
+  - action: utter_kalimat_awal
+  - intent: main_menu
+  - action: utter_welcome
+  - intent: choose_wisata
+  - action: utter_wisata
+  - intent: choose_wisatahoneymoon
+  - action: utter_wisatahoneymoon
+  - intent: choose_villaair
+  - action: utter_villaair
+  - action: utter_villaair_btn
+
+

@@ -1,0 +1,264 @@
+version: "3.1"
+nlu:
+- intent: goodbye
+  examples: |
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - selamat pagi
+    - selamat siang
+    - selamat sore
+    - selamat malam
+    - halo
+    - hai
+    - hi
+- intent: choose_cuaca
+  examples: |
+    - cek cuaca
+    - cuaca
+- intent: cuaca
+  examples: |
+    - cuaca di [dago](loc)
+    - keadaan cuaca di [lembang](loc)
+    - cuaca [cihampelas](loc)
+    - bagaimana cuaca di [dago](loc)
+    - laporan cuaca di [lembang](loc)
+    - lapocan cuara [cihampelas](loc)
+    - cuaca di [cikole]
+    - bagaimana cuaca di [cimahi](loc)
+    - cuaca saat ini di [pasirkaliki](loc)
+    - bagaimana keadaan cuaca di [ciumbuleuit](loc)
+    - lapocan cuara [sukajadi](loc)
+- intent: nama_user
+  examples: |
+    - nama saya [rusydi](nama)
+    - nama saya [fanny](nama)
+    - nama saya [andi](nama)
+    - nama saya [brian](nama)
+    - nama saya [christian](nama)
+    - nama saya [dani](nama)
+    - nama saya [sudirman](nama)
+    - saya [rafly](nama)
+    - saya [jauhar](nama)
+    - saya [ikhwan](nama)
+    - [fanny](nama)
+    - nama saya [rusydi](nama)
+- intent: main_menu
+  examples: |
+    - Siap!
+    - Siap
+    - Mulai
+    - Ready
+- intent: choose_alasan
+  examples: |
+    - Kenapa harus ke Bandung?
+    - Alasan harus pergi ke Bandung
+    - Alasan
+    - Kenapa Bandung
+- intent: choose_kuliner
+  examples: |
+    - tempat kuliner
+    - kuliner
+    - makan
+    - mau makan
+    - laper
+    - haus
+    - mau minum
+    - minum
+    - pengen makan
+    - pengen minum
+- intent: choose_wisata
+  examples: |
+    - wisata
+    - tempat wisata
+- intent: choose_wisatakeluarga
+  examples: |
+    - mau ke tempat wisata keluarga
+    - wisata keluarga
+    - wisata bersama keluarga
+    - tempat wisata yang cocok untuk bersama keluarga
+- intent: choose_wisatasejarah
+  examples: |
+    - mau ke tempat wisata sejarah
+    - wisata sejarah
+    - wisata sejarah di bandung
+    - wisata sejarah bandung
+- intent: choose_wisatahoneymoon
+  examples: |
+    - mau ke tempat wisata honeymoon
+    - wisata honeymoon
+    - wisata honeymoon di bandung
+    - wisata honeymoon bandung
+- intent: choose_alun
+  examples: |
+    - mau ke alun-alun bandung
+    - mau ke alun-alun
+    - mau ke alunalun bandung
+    - ke alun-alun aja
+    - ke alun-alun bandung aja
+    - ke alunalun
+    - ke alunalun bandung
+    - alun-alun di bandung
+    - alunalun di bandung
+    - alun-alun bandung
+    - alunalun bandung
+    - alunalun yang terletak di bandung
+    - alun-alun yang terletak di bandung
+- intent: choose_greatasiaafrika
+  examples: |
+    - mau ke the great asia afrika
+    - ke the great asia afrika
+    - the great asia afrika bandung
+- intent: choose_transstudio
+  examples: |
+    - mau ke trans studio bandung
+    - mau ke trans studio
+    - ke trans studio
+    - ke trans studio bandung
+    - trans studio di bandung
+    - trans studio bandung
+    - trans studio yang terletak di bandung
+- intent: choose_orchid
+  examples: |
+    - mau ke Orchid Forest Cikole
+    - ke Orchid Forest Cikole
+    - Orchid Forest Cikole bandung
+    - Orchid Forest Cikole
+- intent: choose_monumenbla
+  examples: |
+    - mau ke monumen bandung lautan api
+    - ke monumen bandung lautan api aja
+    - monumen bandung lautan api di bandung
+    - monumen bandung lautan api
+    - monumen bandung lautan api yang terletak di bandung
+- intent: choose_gedungmerdeka
+  examples: |
+    - mau ke gedung merdeka
+    - ke gedung merdeka aja
+    - gedung merdeka di bandung
+    - gedung merdeka bandung
+    - gedung merdeka yang terletak di bandung
+- intent: choose_gedungsate
+  examples: |
+    - mau ke gedung sate
+    - ke gedung sate aja
+    - gedung sate di bandung
+    - gedung sate bandung
+    - gedung sate yang terletak di bandung
+- intent: choose_museummandala
+  examples: |
+    - mau ke musem Museum Wangsit Mandala Siliwangi
+    - ke Museum Wangsit Mandala Siliwangi aja
+    - Museum Wangsit Mandala Siliwangi di bandung
+    - Museum Wangsit Mandala Siliwangi bandung
+    - Museum Wangsit Mandala Siliwangi yang terletak di bandung
+- intent: choose_glampinglegok
+  examples: |
+    - mau ke glamping legok kondang
+    - ke glamping legok kondang aja
+    - glamping legok kondang di bandung
+    - glamping legok kondang bandung
+    - glamping legok kondang yang terletak di bandung
+- intent: choose_padmahotel
+  examples: |
+    - mau ke padma hotel bandung
+    - ke padma hotel bandung aja
+    - padma hotel di bandung
+    - padma hotel bandung
+    - padma hotel yang terletak di bandung
+- intent: choose_sandalwood
+  examples: |
+    - mau ke Sandalwood Boutique Hotel
+    - ke Sandalwood Boutique Hotel aja
+    - Sandalwood Boutique Hotel di bandung
+    - Sandalwood Boutique Hotel bandung
+    - Sandalwood Boutique Hotel yang terletak di bandung
+- intent: choose_villaair
+  examples: |
+    - mau ke Villa Air Natural Resort
+    - ke Villa Air Natural Resort aja
+    - Villa Air Natural Resort di bandung
+    - Villa Air Natural Resort bandung
+    - Villa Air Natural Resort yang terletak di bandung
+- intent: choose_alasan_2
+  examples: |
+    - Surga Kuliner
+    - Alasan kedua
+    - Alasan kedua ke Bandung
+- intent: choose_alasan_3
+  examples: |
+    - Panorama Alam yang Indah
+    - Alasan ketiga
+    - Alasan ketiga ke Bandung
+- intent: choose_alasan_4
+  examples: |
+    - Belajar Sejarah
+    - Alasan keempat
+    - Alasan keempat ke Bandung
+- intent: choose_st
+  examples: |
+    - Street Food
+    - Kaki lima
+    - Jajanan
+    - Murah
+    - Murah meriah
+- intent: choose_st_1
+  examples: |
+    - Seblak
+    - seblak
+- intent: choose_st_2
+  examples: |
+    - Batagor
+    - batagor
+- intent: choose_st_3
+  examples: |
+    - Cuanki
+    - cuanki
+- intent: choose_khas
+  examples: |
+    - Makanan khas Bandung
+    - Makan khas Bandung
+    - Khas Bandung
+- intent: choose_khas_1
+  examples: |
+    - Gepuk
+    - gepuk
+- intent: choose_khas_2
+  examples: |
+    - Surabi
+    - surabi
+- intent: choose_khas_3
+  examples: |
+    - Mie kocok
+    - mie kocok
+- intent: choose_oleh
+  examples: |
+    - Oleh-oleh Bandung
+    - Oleh oleh Bandung
+    - Oleh oleh
+- intent: choose_oleh_1
+  examples: |
+    - Peyeum
+    - peyeum
+- intent: choose_oleh_2
+  examples: |
+    - Tahu Susu Lembang
+    - tahu susu lembang
+    - Tahu susu lembang
+    - Tahu susu Lembang
+- intent: choose_oleh_3
+  examples: |
+    - Wajit Cililin
+    - wajit cililin
+    - Wajit cililin

@@ -1,0 +1,212 @@
+version: "3.1"
+
+rules:
+
+- rule: back to menu
+  steps:
+  - intent: main_menu
+  - action: utter_welcome
+
+- rule: back to st
+  steps:
+  - intent: choose_st
+  - action: utter_st
+
+- rule: to st 1
+  steps:
+  - intent: choose_st_1
+  - action: utter_st_1
+  - action: utter_st_1_btn
+
+- rule: to st 2
+  steps:
+  - intent: choose_st_2
+  - action: utter_st_2
+  - action: utter_st_2_btn
+  
+- rule: to st 3
+  steps:
+  - intent: choose_st_3
+  - action: utter_st_3
+  - action: utter_st_3_btn
+
+- rule: back to khas
+  steps:
+  - intent: choose_khas
+  - action: utter_khas
+
+- rule: to khas 1
+  steps:
+  - intent: choose_khas_1
+  - action: utter_khas_1
+  - action: utter_khas_1_btn
+
+- rule: to khas 2
+  steps:
+  - intent: choose_khas_2
+  - action: utter_khas_2
+  - action: utter_khas_2_btn
+  
+- rule: to khas 3
+  steps:
+  - intent: choose_khas_3
+  - action: utter_khas_3
+  - action: utter_khas_3_btn
+
+- rule: back to oleh
+  steps:
+  - intent: choose_oleh
+  - action: utter_oleh
+
+- rule: to oleh 1
+  steps:
+  - intent: choose_oleh_1
+  - action: utter_oleh_1
+  - action: utter_oleh_1_btn
+
+- rule: to oleh 2
+  steps:
+  - intent: choose_oleh_2
+  - action: utter_oleh_2
+  - action: utter_oleh_2_btn
+  
+- rule: to oleh 3
+  steps:
+  - intent: choose_oleh_3
+  - action: utter_oleh_3
+  - action: utter_oleh_3_btn
+
+- rule: back to kuliner
+  steps:
+  - intent: choose_kuliner
+  - action: utter_kuliner
+
+# - rule: Say goodbye anytime the user says goodbye
+#   steps:
+#   - intent: goodbye
+#   - action: utter_goodbye
+- rule: pilih cuaca
+  steps:
+  - intent: choose_cuaca
+  - action: utter_tanya_loc
+
+- rule: cuaca
+  steps:
+  - intent: cuaca
+  - action: action_cuaca
+
+- rule: alasan
+  steps:
+  - intent: choose_alasan
+  - action: utter_alasan_satu
+  - action: utter_alasan_1_btn
+
+- rule: alasan2
+  steps:
+  - intent: choose_alasan_2
+  - action: utter_alasan_dua
+  - action: utter_alasan_2_btn
+
+- rule: alasan3
+  steps:
+  - intent: choose_alasan_3
+  - action: utter_alasan_tiga
+  - action: utter_alasan_3_btn
+
+- rule: alasan4
+  steps:
+  - intent: choose_alasan_4
+  - action: utter_alasan_empat
+  - action: utter_back_to_menu
+
+- rule: back to wisata
+  steps:
+  - intent: choose_wisata
+  - action: utter_wisata
+
+- rule: back to wisatakeluarga
+  steps:
+  - intent: choose_wisatakeluarga
+  - action: utter_wisatakeluarga
+
+- rule: to alun alun
+  steps:
+  - intent: choose_alun
+  - action: utter_alun
+  - action: utter_alun_btn
+
+- rule: to great asia afrika
+  steps:
+  - intent: choose_greatasiaafrika
+  - action: utter_greatasiaafrika
+  - action: utter_greatasiaafrika_btn
+  
+- rule: to trans studio bandung
+  steps:
+  - intent: choose_transstudio
+  - action: utter_transstudio
+  - action: utter_transstudio_btn
+
+- rule: to orchid
+  steps:
+  - intent: choose_orchid
+  - action: utter_orchid
+  - action: utter_orchid_btn
+
+- rule: back to wisata sejarah
+  steps:
+  - intent: choose_wisatasejarah
+  - action: utter_wisatasejarah
+
+- rule: to monumen bandung lautan api
+  steps:
+  - intent: choose_monumenbla
+  - action: utter_monumenbla
+  - action: utter_monumenbla_btn
+
+- rule: to gedung merdeka
+  steps:
+  - intent: choose_gedungmerdeka
+  - action: utter_gedungmerdeka
+  - action: utter_gedungmerdeka_btn
+
+- rule: to gedung sate
+  steps:
+  - intent: choose_gedungsate
+  - action: utter_gedungsate
+  - action: utter_gedungsate_btn
+
+- rule: to museum mandala
+  steps:
+  - intent: choose_museummandala
+  - action: utter_museummandala
+  - action: utter_museummandala_btn
+  
+- rule: back to wisata honeymoon
+  steps:
+  - intent: choose_wisatahoneymoon
+  - action: utter_wisatahoneymoon
+
+- rule: to glamping legok kondang
+  steps:
+  - intent: choose_glampinglegok
+  - action: utter_glampinglegok
+  - action: utter_glampinglegok_btn
+
+- rule: to padma hotel
+  steps:
+  - intent: choose_padmahotel
+  - action: utter_padmahotel
+  - action: utter_padmahotel_btn
+  
+- rule: to sandalwood
+  steps:
+  - intent: choose_sandalwood
+  - action: utter_sandalwood
+  - action: utter_sandalwood_btn
+
+- rule: to villa
+  steps:
+  - intent: choose_villaair
+  - action: utter_villaair
+  - action: utter_villaair_btn
